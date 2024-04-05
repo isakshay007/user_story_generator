@@ -102,8 +102,8 @@ def resume_response():
                      - Constraints and Limitations: Identify any constraints or limitations that may impact feature development and implementation.
                      - Use Cases: Based on above information give multiple use cases that can used for by the user.
                      - User Stories: Based on the provided information, craft multiple user stories that represent specific user needs and actions within the product.
-                     - Ensure that the information provided for Product Vision and Goals, Target Audience and User Personas, Functional Requirements, Non-Functional Requirements, User Flows and Workflows, Acceptance Criteria, and Constraints and Limitations is precise and comprehensive.
-                     - The generated Use Cases and User Stories should be clearly explained and relevant to the product's context and objectives."""
+                     - Ensure that the information provided for Product Vision and Goals, Target Audience and User Personas, Functional Requirements, Non-Functional Requirements, User Flows and Workflows, Acceptance Criteria, and Constraints and Limitations is precise and comprehensive not more than 3 bullet points.
+                     - The generated Use Cases and User Stories should be clearly explained individually with relevance to the product's context and objectives."""
 
     response = rag.chat(prompt)
     return response.response
