@@ -115,7 +115,7 @@ if uploaded_file is not None:
 # Footer or any additional information
 with st.expander("ℹ️ - About this App"):
     st.markdown(
-        """Experience the seamless integration of Lyzr's QABot as you refine your documents with ease.For any inquiries or issues, please contact Lyzr.
+        """Experience the seamless integration of Lyzr's ChatBot as you refine your documents with ease.For any inquiries or issues, please contact Lyzr.
 
     """
     )
